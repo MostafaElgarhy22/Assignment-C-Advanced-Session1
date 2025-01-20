@@ -2,6 +2,7 @@
 using Assignment_C__Advanced_Session1.Q_2;
 using Assignment_C__Advanced_Session1.Q_3;
 using Assignment_C__Advanced_Session1.Q_4;
+using Assignment_C__Advanced_Session1.Q_5;
 
 namespace Assignment_C__Advanced_Session1
 {
@@ -67,6 +68,29 @@ namespace Assignment_C__Advanced_Session1
             //foreach (int numb in evenNumbers)
             //{
             //    Console.Write(numb + " ");
+            //}
+            #endregion
+
+            #region Q 5
+
+            //FixedSizeList<int> list = new FixedSizeList<int>(5);
+
+            //list.Add(10);
+            //list.Add(20);
+            //list.Add(30);
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.WriteLine(list.Get(i));
+            //}
+
+            //list.Add(40);
+            //list.Add(50);
+            //list.Add(60);
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    Console.WriteLine(list.Get(i));
             //}
             #endregion
         }
