@@ -3,6 +3,7 @@ using Assignment_C__Advanced_Session1.Q_2;
 using Assignment_C__Advanced_Session1.Q_3;
 using Assignment_C__Advanced_Session1.Q_4;
 using Assignment_C__Advanced_Session1.Q_5;
+using Assignment_C__Advanced_Session1.Q_6;
 
 namespace Assignment_C__Advanced_Session1
 {
@@ -93,6 +94,13 @@ namespace Assignment_C__Advanced_Session1
             //    Console.WriteLine(list.Get(i));
             //}
             #endregion
+
+            #region Q 6
+            //List<char> charList = new List<char> { 'A', 'B', 'C', 'D', 'A', 'B' };
+            //int result = First_unrepeated_char.FirstChar(charList);
+
+            //Console.WriteLine(result);
+                #endregion
         }
     }
 }
