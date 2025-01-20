@@ -14,28 +14,22 @@ namespace Assignment_C__Advanced_Session1.Q_1
             a = b;
             b = temp;
         }
-    }
-    public static class BubbleSortt
-    {
-        public static void BubbleSort<T>(T[] arr) where T : IComparable<T>
+
+        internal static void BubbleSort(int[] numbers)
         {
-            if (arr is null || arr.Length == 0)
-                return;
-
-            for (int i = 0; i < arr.Length; i++)
+            int n = numbers.Length;
+            for (int i = 0; i < n - 1; i++)
             {
-                bool swapped = false;
-
-                for (int j = 0; j < arr.Length - 1 - i; j++)
+                for (int j = 0; j < n - i - 1; j++)
                 {
-                    if (arr[j].CompareTo(arr[j + 1]) > 0)
+                    if (numbers[j] > numbers[j + 1])
                     {
-                        Helper<T>.Swap(ref arr[j], ref arr[j + 1]);
-                        swapped = true;
+                        int temp = numbers[j];
+                        numbers[j] = numbers[j + 1];
+                        numbers[j + 1] = temp;
                     }
                 }
-            }
-
+            } 
         }
     }
 }
