@@ -24,7 +24,6 @@ namespace Assignment_C__Advanced_Session1.Q_1
                 {
                     if (numbers[j] > numbers[j + 1])
                     {
-                        // Swap temp and numbers[i]
                         int temp = numbers[j];
                         numbers[j] = numbers[j + 1];
                         numbers[j + 1] = temp;
