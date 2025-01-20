@@ -1,6 +1,7 @@
 ﻿using Assignment_C__Advanced_Session1.Q_1;
 using Assignment_C__Advanced_Session1.Q_2;
 using Assignment_C__Advanced_Session1.Q_3;
+using Assignment_C__Advanced_Session1.Q_4;
 
 namespace Assignment_C__Advanced_Session1
 {
@@ -55,6 +56,18 @@ namespace Assignment_C__Advanced_Session1
 
             //Console.WriteLine();
 
+            #endregion
+
+            #region Q 4
+
+            //List<int> numbers = new List<int> {10,8,6,66,88,9,3,98,89,23 };
+
+            //List<int> evenNumbers = NumberUtils.EvenNumbers(numbers);
+
+            //foreach (int numb in evenNumbers)
+            //{
+            //    Console.Write(numb + " ");
+            //}
             #endregion
         }
     }
